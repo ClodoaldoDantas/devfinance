@@ -1,0 +1,31 @@
+.header {
+  padding: 2rem 0;
+  background-color: var(--green-dark);
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+    @media (max-width: 490px) {
+      margin-top: 1.125rem;
+    }
+  }
+
+  a {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    color: var(--white);
+
+    & + a {
+      margin-left: 2rem;
+    }
+  }
+
+  .active {
+    border-bottom: 3px solid var(--green);
+  }
+}

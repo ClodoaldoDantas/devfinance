@@ -1,0 +1,52 @@
+.form {
+  margin: 2rem auto;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--title);
+    margin-bottom: 2rem;
+
+    @media (max-width: 470px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .buttonGroup {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+
+    button {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 3.5rem;
+      background-color: transparent;
+      border-radius: 0.25rem;
+      border: 1px solid var(--text);
+      color: var(--title);
+
+      img {
+        margin-right: 0.5rem;
+      }
+
+      &.income {
+        border-color: transparent;
+        background-color: #d6e0d3;
+      }
+
+      &.outcome {
+        border-color: transparent;
+        background-color: #e6d3d3;
+      }
+    }
+  }
+
+  & > button[type='submit'] {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
