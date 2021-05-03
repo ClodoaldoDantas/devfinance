@@ -27,7 +27,7 @@ Ferramenta de balanço de gastos
 ## ✨ Features
 
 - 📂 Compartilhamento de dados globais utilizando a [Context API](https://pt-br.reactjs.org/docs/context.html)
-- 💅 Layout responsivo utilizando [Flexbox](https://docs.expo.io/versions/latest/sdk/async-storage/)
+- 💅 Layout responsivo utilizando [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox)
 - 📋 Validação de formulários com [React Hook Form](https://react-hook-form.com/get-started)
 
 ## 🔥 Instalação
