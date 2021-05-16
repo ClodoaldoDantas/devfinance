@@ -2,6 +2,11 @@
 
 Ferramenta de balanço de gastos
 
+<p>
+  <img src="./screenshots/photo-4.png" width="40%" />
+  <img src="./screenshots/photo-5.png" width="40%" />
+</p>
+
 ![Screenshot 1](screenshots/photo-1.png)
 ![Screenshot 2](screenshots/photo-2.png)
 ![Screenshot 3](screenshots/photo-3.png)
@@ -44,5 +49,3 @@ $ yarn dev
 ```
 
 > 💡 O código foi implementado todo do zero por mim, mas o layout é feito pela equipe da [Rocketseat](https://rocketseat.com.br/)
-
-> 🚧 a aplicação mobile do sistema está em construção.
