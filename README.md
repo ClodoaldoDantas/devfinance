@@ -49,3 +49,8 @@ $ yarn dev
 ```
 
 > 💡 O código foi implementado todo do zero por mim, mas o layout é feito pela equipe da [Rocketseat](https://rocketseat.com.br/)
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
